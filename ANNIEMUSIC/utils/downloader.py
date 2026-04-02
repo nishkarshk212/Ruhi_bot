@@ -5,21 +5,37 @@ from yt_dlp.utils import DownloadError
 ytdl = yt_dlp.YoutubeDL(
     {
         "outtmpl": "downloads/%(id)s.%(ext)s",
-        "format": "bestaudio[ext=m4a]",
+        "format": "bestaudio[ext=m4a]/bestaudio/best",
         "geo_bypass": True,
         "nocheckcertificate": True,
+        "prefer_ffmpeg": True,
+        "postprocessors": [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'm4a',
+            'preferredquality': '320',  # Highest quality stereo
+        }],
+        "audio_quality": "0",  # Best audio quality (0 is best, 9 is worst)
+        "audio_format": "m4a",
     }
  )
 
 
 def download(url: str, my_hook) -> str:       
     ydl_optssx = {
-        'format' : 'bestaudio[ext=m4a]',
+        'format' : 'bestaudio[ext=m4a]/bestaudio/best',
         "outtmpl": "downloads/%(id)s.%(ext)s",
         "geo_bypass": True,
         "nocheckcertificate": True,
         'quiet': True,
         'no_warnings': True,
+        'prefer_ffmpeg': True,
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'm4a',
+            'preferredquality': '320',  # Highest quality stereo
+        }],
+        'audio_quality': '0',  # Best audio quality
+        'audio_format': 'm4a',
     }
     info = ytdl.extract_info(url, False)
     try:

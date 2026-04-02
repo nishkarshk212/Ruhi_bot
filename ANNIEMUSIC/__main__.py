@@ -49,6 +49,11 @@ async def init():
     except:
         pass
     await JARVIS.decorators()
+    
+    # Start auto maintenance scheduler
+    from ANNIEMUSIC.plugins.misc.auto_maintenance import start_maintenance_scheduler
+    await start_maintenance_scheduler()
+    
     LOGGER("MUSICBROKN").info(
         "\x41\x6e\x6e\x69\x65\x20\x4d\x75\x73\x69\x63\x20\x52\x6f\x62\x6f\x74\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\x2e\x2e"
     )
