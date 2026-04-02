@@ -77,6 +77,11 @@ async def stream(
                     file_path, direct = await YouTube.download(
                         vidid, mystic, video=status, videoid=True
                     )
+                    # Check if download was successful
+                    if not file_path:
+                        raise AssistantErr(_["play_14"])
+                except AssistantErr:
+                    raise
                 except:
                     raise AssistantErr(_["play_14"])
                 await JARVIS.join_call(
@@ -141,6 +146,11 @@ async def stream(
             file_path, direct = await YouTube.download(
                 vidid, mystic, videoid=True, video=status
             )
+            # Check if download was successful
+            if not file_path:
+                raise AssistantErr(_["play_14"])
+        except AssistantErr:
+            raise
         except:
             raise AssistantErr(_["play_14"])
         if await is_active_chat(chat_id):

@@ -268,6 +268,10 @@ class Call(PyTgCalls):
         video: Union[bool, str] = None,
         image: Union[bool, str] = None,
     ):
+        # Validate that link is not None
+        if not link:
+            raise AssistantErr(_["call_10"])
+            
         assistant = await group_assistant(self, chat_id)
         language = await get_lang(chat_id)
         _ = get_string(language)
