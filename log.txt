@@ -1,0 +1,1363 @@
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:41:06 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:42:38 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:42:39 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:42:43 - ERROR] - __main__ - ᴀssɪsᴛᴀɴᴛ sᴇssɪᴏɴ ɴᴏᴛ ғɪʟʟᴇᴅ, ᴘʟᴇᴀsᴇ ғɪʟʟ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ...
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:45:25 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:45:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:45:27 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:47:02 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:47:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:47:04 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:47:11 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:48:24 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:48:24 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:48:25 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:48:25 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:48:25 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:48:25 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:48:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:48:26 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:48:33 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:48:33 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:49:20 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:49:21 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:49:22 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:49:29 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:49:29 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:49:32 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 17:49:33 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x11633dad0>
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:50:07 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:50:08 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:50:09 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:50:16 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:50:16 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:50:21 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 17:50:21 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 17:50:21 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 17:50:23 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 17:50:23 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 17:50:24 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 17:52:52 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 17:52:53 - ERROR] - BrokenXAPI - ❌ [AUDIO] Exception: 503, message='Service Unavailable', url='https://mrbroken-brokenxbots.hf.space/download/audio?video_id=nWbj7W_pD9U'
+[02-Apr-26 17:54:13 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 17:54:14 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 17:54:14 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 17:54:14 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x128234f50>
+[02-Apr-26 17:54:14 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12d658cd0>
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:54:23 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:54:24 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:54:25 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:54:32 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:54:32 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:54:33 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 17:54:33 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 17:54:33 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 17:54:35 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 17:54:35 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 17:54:36 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:55:51 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:55:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:55:52 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:55:59 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:56:00 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:56:01 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 17:56:01 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 17:56:01 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 17:56:02 - ERROR] - pyrogram.dispatcher - Unhandled exception: Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/decorators/play.py", line 117, in wrapper
+    userbot = await get_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 99, in get_assistant
+    userbot = await set_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 72, in set_assistant
+    ran_assistant = random.choice(assistants)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/random.py", line 373, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+[02-Apr-26 17:56:03 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 17:56:03 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 17:56:04 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 17:57:10 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 17:57:12 - ERROR] - BrokenXAPI - ❌ [AUDIO] Exception: 503, message='Service Unavailable', url='https://mrbroken-brokenxbots.hf.space/download/audio?video_id=nWbj7W_pD9U'
+[02-Apr-26 17:58:52 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 17:58:53 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 17:58:53 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 17:58:53 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12aa2d6d0>
+[02-Apr-26 17:58:53 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12feb9810>
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 17:59:03 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 17:59:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 17:59:04 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 17:59:11 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 17:59:11 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 17:59:12 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 17:59:12 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 17:59:12 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 17:59:14 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 17:59:14 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 17:59:15 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 17:59:18 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 17:59:19 - ERROR] - BrokenXAPI - ❌ [AUDIO] API error: 404
+[02-Apr-26 18:00:59 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 18:01:00 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 18:01:00 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 18:01:00 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a12e450>
+[02-Apr-26 18:01:00 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a158710>
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:01:02 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:01:02 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:01:03 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:01:10 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:01:10 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:01:12 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:01:12 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:01:12 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:01:13 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:01:13 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:01:14 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:01:18 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 18:01:19 - INFO] - BrokenXAPI - 🔄 Falling back to BrokenXAPI...
+[02-Apr-26 18:01:20 - ERROR] - BrokenXAPI - ❌ [AUDIO] Exception: 503, message='Service Unavailable', url='https://mrbroken-brokenxbots.hf.space/download/audio?video_id=nWbj7W_pD9U'
+[02-Apr-26 18:19:25 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:19:25 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:19:26 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:19:26 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:19:26 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:19:26 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:19:26 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:19:27 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:19:34 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:19:34 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:19:38 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:19:38 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:19:38 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:19:38 - ERROR] - pyrogram.dispatcher - Unhandled exception: Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/decorators/play.py", line 117, in wrapper
+    userbot = await get_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 99, in get_assistant
+    userbot = await set_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 72, in set_assistant
+    ran_assistant = random.choice(assistants)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/random.py", line 373, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+[02-Apr-26 18:19:43 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:19:43 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:19:44 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:19:56 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 18:19:57 - INFO] - BrokenXAPI - 🔄 Falling back to BrokenXAPI...
+[02-Apr-26 18:19:58 - ERROR] - BrokenXAPI - ❌ [AUDIO] Exception: 503, message='Service Unavailable', url='https://mrbroken-brokenxbots.hf.space/download/audio?video_id=nWbj7W_pD9U'
+[02-Apr-26 18:25:10 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 18:25:10 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 18:25:10 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 18:25:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a42de90>
+[02-Apr-26 18:25:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1169bf610>
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:25:18 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:25:18 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:25:20 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:25:27 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:25:27 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:25:28 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:25:28 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:25:28 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:25:30 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:25:30 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:25:31 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:25:46 - INFO] - BrokenXAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 18:25:46 - INFO] - BrokenXAPI - 🎵 [YT-DLP] Attempting direct download...
+[02-Apr-26 18:25:50 - WARNING] - BrokenXAPI - ⚠️ [YT-DLP] Failed, trying API fallback: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[02-Apr-26 18:25:51 - INFO] - BrokenXAPI - 🔄 Falling back to BrokenXAPI...
+[02-Apr-26 18:25:52 - ERROR] - BrokenXAPI - ❌ [AUDIO] Exception: 503, message='Service Unavailable', url='https://mrbroken-brokenxbots.hf.space/download/audio?video_id=nWbj7W_pD9U'
+[02-Apr-26 18:36:34 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 18:36:34 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 18:36:34 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 18:36:35 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12852e490>
+[02-Apr-26 18:36:35 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12d9c9a50>
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:38:51 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:38:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:38:52 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:41:25 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:41:25 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:41:27 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:47:42 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:47:42 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:47:44 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:47:51 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:47:51 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:47:53 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:47:53 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:47:53 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:47:54 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:47:54 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:47:55 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:51:49 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:51:49 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:51:51 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:51:57 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:51:57 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:51:58 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:51:59 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:51:59 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:52:00 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:52:00 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:52:01 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:52:43 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: SgiXvLBTm8I
+[02-Apr-26 18:52:43 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz
+[02-Apr-26 18:52:44 - WARNING] - NexGenAPI - ⚠️ [NEXGEN] API returned status 404
+[02-Apr-26 18:52:44 - INFO] - NexGenAPI - 🎵 [YT-DLP] Attempting direct download...
+[02-Apr-26 18:52:49 - ERROR] - NexGenAPI - ❌ [YT-DLP] Also failed: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[02-Apr-26 18:54:43 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 18:54:43 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 18:54:43 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 18:54:44 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12cd2e590>
+[02-Apr-26 18:54:44 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1321ca150>
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:54:46 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:54:46 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:54:48 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:54:55 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:54:55 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:54:56 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:54:56 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:54:56 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:54:57 - ERROR] - pyrogram.dispatcher - Unhandled exception: Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/decorators/play.py", line 117, in wrapper
+    userbot = await get_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 99, in get_assistant
+    userbot = await set_assistant(chat_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/database.py", line 72, in set_assistant
+    ran_assistant = random.choice(assistants)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/random.py", line 373, in choice
+    raise IndexError('Cannot choose from an empty sequence')
+IndexError: Cannot choose from an empty sequence
+[02-Apr-26 18:54:58 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:54:58 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:54:59 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 18:55:11 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 18:55:11 - INFO] - NexGenAPI - 🎵 [YT-DLP] Attempting direct download...
+[02-Apr-26 18:55:18 - WARNING] - NexGenAPI - ⚠️ [YT-DLP] Failed, trying API fallback: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[02-Apr-26 18:55:18 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz
+[02-Apr-26 18:55:19 - WARNING] - NexGenAPI - ⚠️ [NEXGEN] API returned status 404
+[02-Apr-26 18:59:26 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 18:59:26 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 18:59:26 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 18:59:27 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x11e62e750>
+[02-Apr-26 18:59:27 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12fa8e690>
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 18:59:29 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 18:59:29 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 18:59:30 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 18:59:37 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 18:59:37 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 18:59:38 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 18:59:39 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 18:59:39 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 18:59:40 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 18:59:40 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 18:59:41 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:00:47 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:00:47 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:00:48 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:00:48 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:00:48 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:00:48 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:00:48 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:00:49 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:00:55 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 19:00:56 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:00:57 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 19:00:57 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 19:00:57 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 19:00:58 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 19:00:58 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 19:00:59 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:01:01 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 19:01:01 - INFO] - NexGenAPI - 🎵 [YT-DLP] Attempting direct download...
+[02-Apr-26 19:01:06 - WARNING] - NexGenAPI - ⚠️ [YT-DLP] Failed, trying API fallback: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[02-Apr-26 19:01:06 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/nWbj7W_pD9U
+[02-Apr-26 19:01:07 - WARNING] - NexGenAPI - ⚠️ [NEXGEN] Unexpected response: {'status': 'done', 'link': 'https://pvtz.nexgenbots.xyz/stream/nWbj7W_pD9U?api=NxGBNexGenBots448436'}
+[02-Apr-26 19:01:40 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 19:01:41 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 19:01:41 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 19:01:42 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12c72dd10>
+[02-Apr-26 19:01:42 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x118bfc190>
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:01:43 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:01:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:01:45 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:01:51 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 19:01:52 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:01:52 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 19:01:52 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 19:01:52 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 19:01:54 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 19:01:54 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 19:01:55 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:02:01 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 19:02:01 - INFO] - NexGenAPI - 🎵 [YT-DLP] Attempting direct download...
+[02-Apr-26 19:02:06 - WARNING] - NexGenAPI - ⚠️ [YT-DLP] Failed, trying API fallback: [0;31mERROR:[0m unable to download video data: HTTP Error 403: Forbidden
+[02-Apr-26 19:02:06 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/nWbj7W_pD9U
+[02-Apr-26 19:02:06 - INFO] - NexGenAPI - ✅ [NEXGEN] File already downloaded!
+[02-Apr-26 19:02:06 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from provided link...
+[02-Apr-26 19:04:09 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 19:04:10 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 19:04:10 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 19:04:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12892e250>
+[02-Apr-26 19:04:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12dd5e1d0>
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:04:12 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:04:13 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:04:14 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:05:02 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:05:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:05:04 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:05:11 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 19:05:11 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:05:12 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 19:05:12 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 19:05:12 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 19:05:14 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 19:05:14 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 19:05:15 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:05:29 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: b9g4xNY-q9k
+[02-Apr-26 19:05:29 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/b9g4xNY-q9k
+[02-Apr-26 19:05:32 - INFO] - NexGenAPI - ✅ [NEXGEN] Download started, waiting...
+[02-Apr-26 19:06:21 - ERROR] - pyrogram.dispatcher - Unhandled exception: Telegram says: [403 CHAT_SEND_PHOTOS_FORBIDDEN] (caused by "messages.SendMedia") Pyrogram 2.3.69 thinks: You can't send photos in this chat
+Traceback (most recent call last):
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/decorators/language.py", line 54, in wrapper
+    return await mystic(_, message, language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/plugins/bot/start.py", line 148, in start_gp
+    await message.reply_photo(
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/types/messages_and_media/message.py", line 3157, in reply_photo
+    return await self._client.send_photo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/methods/messages/send_photo.py", line 268, in send_photo
+    r = await self.invoke(rpc)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.forbidden_403.ChatSendPhotosForbidden: Telegram says: [403 CHAT_SEND_PHOTOS_FORBIDDEN] (caused by "messages.SendMedia") Pyrogram 2.3.69 thinks: You can't send photos in this chat
+[02-Apr-26 19:07:13 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 19:07:14 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 19:07:14 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 19:07:15 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12cd2e0d0>
+[02-Apr-26 19:07:15 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1321be250>
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:07:17 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:07:17 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:07:18 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:07:25 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 19:07:25 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:07:26 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 19:07:26 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 19:07:26 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 19:07:32 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 19:07:32 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 19:07:33 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:07:46 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 19:07:46 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/nWbj7W_pD9U
+[02-Apr-26 19:07:47 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 19:07:47 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from: https://pvtz.nexgenbots.xyz/stream/nWbj7W_pD9U?api=NxGBNexGenBots448436
+[02-Apr-26 19:07:49 - INFO] - NexGenAPI - ✅ [NEXGEN] Successfully downloaded: downloads/nWbj7W_pD9U.m4a
+[02-Apr-26 19:08:36 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: b9g4xNY-q9k
+[02-Apr-26 19:08:36 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/b9g4xNY-q9k
+[02-Apr-26 19:08:36 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 19:08:36 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from: https://pvtz.nexgenbots.xyz/stream/b9g4xNY-q9k?api=NxGBNexGenBots448436
+[02-Apr-26 19:08:41 - INFO] - NexGenAPI - ✅ [NEXGEN] Successfully downloaded: downloads/b9g4xNY-q9k.m4a
+[02-Apr-26 19:09:15 - ERROR] - pyrogram.dispatcher - Unhandled exception: 'Message' object has no attribute 'message_id'
+Traceback (most recent call last):
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 383, in _dispatch_to_handlers
+    await self._execute_handler(handler, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/dispatcher.py", line 410, in _execute_handler
+    await handler.callback(self.client, *args)
+  File "/Users/nishkarshkr/.pyenv/versions/3.11.9/lib/python3.11/site-packages/pyrogram/handlers/callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/utils/decorators/language.py", line 42, in wrapper
+    return await mystic(_, CallbackQuery, language)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nishkarshkr/Desktop/Music bot/anniex/ANNIEMUSIC/plugins/admins/callback.py", line 60, in markup_panel
+    wrong[chat_id][CallbackQuery.message.message_id] = False
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'message_id'
+[02-Apr-26 19:25:56 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:25:56 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:25:57 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:25:57 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:25:57 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:25:57 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:25:57 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:25:58 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:26:04 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 19:26:04 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 19:26:06 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 19:26:06 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 19:26:06 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 19:26:08 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 19:26:08 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 19:26:09 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:36:03 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:36:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:36:05 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 19:36:41 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 19:36:42 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 19:36:43 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:27:51 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:27:52 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:27:53 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:28:03 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:28:04 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:28:05 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:29:56 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:29:56 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:29:58 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:37:44 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:37:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:37:46 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:41:13 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:41:13 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:41:15 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:41:21 - ERROR] - ANNIEMUSIC.core.bot - Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel.
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:42:15 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:42:16 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:42:17 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:42:24 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 20:42:24 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:42:26 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 20:42:27 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x118f3b310>
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:44:45 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:44:45 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:44:46 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:44:53 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 20:44:53 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:44:59 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 20:44:59 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 20:44:59 - INFO] - ANNIEMUSIC.core.userbot - Broken x Assistant starting...
+[02-Apr-26 20:45:04 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 20:45:04 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 20:45:05 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 20:50:28 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 20:50:28 - INFO] - ANNIEMUSIC.core.userbot - **Broken x Assistant ...**
+[02-Apr-26 20:50:28 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 20:50:29 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a12ea90>
+[02-Apr-26 20:50:29 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12f5b2550>
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 20:50:29 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 20:50:30 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 20:50:31 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 20:50:38 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 20:50:38 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 20:50:39 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 20:50:39 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 20:50:39 - INFO] - ANNIEMUSIC.core.userbot - ˹🇴ρ ꭙ 🇧σтѕ ˼ Assistant starting...
+[02-Apr-26 20:50:41 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 20:50:41 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 20:50:42 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 20:51:36 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: nWbj7W_pD9U
+[02-Apr-26 20:51:36 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/nWbj7W_pD9U
+[02-Apr-26 20:51:38 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 20:51:38 - INFO] - NexGenAPI - ✅ [NEXGEN] File already exists: downloads/nWbj7W_pD9U.m4a
+[02-Apr-26 20:57:22 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: E7ergOnpO1Q
+[02-Apr-26 20:57:22 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/E7ergOnpO1Q
+[02-Apr-26 20:57:25 - INFO] - NexGenAPI - ⏳ [NEXGEN] Still processing, waiting...
+[02-Apr-26 20:57:29 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: 1OAjeECW90E
+[02-Apr-26 20:57:29 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/1OAjeECW90E
+[02-Apr-26 20:57:30 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: E7ergOnpO1Q
+[02-Apr-26 20:57:30 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/E7ergOnpO1Q
+[02-Apr-26 20:57:30 - INFO] - NexGenAPI - ⏳ [NEXGEN] Still processing, waiting...
+[02-Apr-26 20:57:30 - INFO] - NexGenAPI - ⏳ [NEXGEN] Still processing, waiting...
+[02-Apr-26 20:57:35 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: 1OAjeECW90E
+[02-Apr-26 20:57:35 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/1OAjeECW90E
+[02-Apr-26 20:57:35 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: E7ergOnpO1Q
+[02-Apr-26 20:57:35 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/E7ergOnpO1Q
+[02-Apr-26 20:57:36 - INFO] - NexGenAPI - ⏳ [NEXGEN] Still processing, waiting...
+[02-Apr-26 20:57:36 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 20:57:36 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from: https://pvtz.nexgenbots.xyz/stream/E7ergOnpO1Q?api=NxGBNexGenBots448436
+[02-Apr-26 20:57:38 - INFO] - NexGenAPI - ✅ [NEXGEN] Successfully downloaded: downloads/E7ergOnpO1Q.m4a
+[02-Apr-26 20:57:41 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: 1OAjeECW90E
+[02-Apr-26 20:57:41 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/1OAjeECW90E
+[02-Apr-26 20:57:41 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 20:57:41 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from: https://pvtz.nexgenbots.xyz/stream/1OAjeECW90E?api=NxGBNexGenBots448436
+[02-Apr-26 20:57:44 - INFO] - NexGenAPI - ✅ [NEXGEN] Successfully downloaded: downloads/1OAjeECW90E.m4a
+[02-Apr-26 20:59:55 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: 69-yupf0pAY
+[02-Apr-26 20:59:55 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/69-yupf0pAY
+[02-Apr-26 20:59:56 - INFO] - NexGenAPI - ⏳ [NEXGEN] Still processing, waiting...
+[02-Apr-26 21:00:01 - INFO] - NexGenAPI - 🎵 [AUDIO] Starting download for: 69-yupf0pAY
+[02-Apr-26 21:00:01 - INFO] - NexGenAPI - 🎵 [NEXGEN] Using API: https://pvtz.nexgenbots.xyz/song/69-yupf0pAY
+[02-Apr-26 21:00:02 - INFO] - NexGenAPI - ✅ [NEXGEN] Got stream link, downloading...
+[02-Apr-26 21:00:02 - INFO] - NexGenAPI - 📥 [NEXGEN] Downloading from: https://pvtz.nexgenbots.xyz/stream/69-yupf0pAY?api=NxGBNexGenBots448436
+[02-Apr-26 21:00:04 - INFO] - NexGenAPI - ✅ [NEXGEN] Successfully downloaded: downloads/69-yupf0pAY.m4a
+[02-Apr-26 21:02:49 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:02:50 - INFO] - ANNIEMUSIC.core.userbot - **˹🇴ρ ꭙ 🇧σтѕ ˼ Assistant ...**
+[02-Apr-26 21:02:50 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:02:50 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1160d3b90>
+[02-Apr-26 21:02:50 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x11ee51310>
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:02:51 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:02:51 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:02:53 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:02:59 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:02:59 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:03:01 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:03:01 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:03:01 - INFO] - ANNIEMUSIC.core.userbot - ˹🇴ρ ꭙ 🇧σтѕ ˼ Assistant starting...
+[02-Apr-26 21:03:03 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 21:03:03 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:03:04 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:04:57 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:04:57 - INFO] - ANNIEMUSIC.core.userbot - **˹🇴ρ ꭙ 🇧σтѕ ˼ Assistant ...**
+[02-Apr-26 21:04:57 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:04:57 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12c82f510>
+[02-Apr-26 21:04:57 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x131c3f190>
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:04:58 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:04:58 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:05:00 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:05:07 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:05:07 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:05:08 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:05:08 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:05:08 - INFO] - ANNIEMUSIC.core.userbot - ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:05:10 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 21:05:10 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:05:11 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:05:23 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:05:24 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:05:25 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:05:32 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:05:33 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:05:33 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:05:33 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:05:33 - INFO] - ANNIEMUSIC.core.userbot - ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:05:35 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪</a>
+[02-Apr-26 21:05:35 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:05:36 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:11:11 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:11:11 - INFO] - ANNIEMUSIC.core.userbot - **˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:11:11 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:11:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12ad2f190>
+[02-Apr-26 21:11:11 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1301bf310>
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:11:12 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:11:12 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:11:14 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:11:20 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:11:21 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:11:22 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:11:22 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:11:22 - INFO] - ANNIEMUSIC.core.userbot - ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:11:28 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:11:28 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:11:29 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:11:39 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:11:39 - INFO] - ANNIEMUSIC.core.userbot - **˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:11:39 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:11:40 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x116ffd390>
+[02-Apr-26 21:11:40 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12fac6e10>
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:11:40 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:11:40 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:11:41 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:11:49 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:11:49 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:11:50 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:11:50 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:11:50 - INFO] - ANNIEMUSIC.core.userbot - ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:11:52 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:11:52 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:11:53 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:14:01 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:14:02 - INFO] - ANNIEMUSIC.core.userbot - **˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:14:02 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:14:03 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:14:03 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12bebbad0>
+[02-Apr-26 21:14:03 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1181df450>
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:14:03 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:14:05 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:14:11 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪ 
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:14:12 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:14:14 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:14:14 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:14:14 - INFO] - ANNIEMUSIC.core.userbot - ˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:14:16 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:14:16 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:14:17 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:16:42 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:16:42 - INFO] - ANNIEMUSIC.core.userbot - **˹ʀᴜʜɪ x ᴍᴜꜱɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:16:42 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:16:43 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a92b890>
+[02-Apr-26 21:16:43 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a951110>
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:16:44 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:16:44 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:16:45 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:16:52 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:16:52 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:16:55 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:16:55 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:16:55 - INFO] - ANNIEMUSIC.core.userbot - ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:16:57 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:16:57 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:16:58 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:17:29 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:17:29 - INFO] - ANNIEMUSIC.core.userbot - **˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:17:29 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:17:30 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x124d2b510>
+[02-Apr-26 21:17:30 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x13213af90>
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:17:30 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:17:30 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:17:31 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:17:38 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:17:38 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:17:39 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:17:39 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:17:39 - INFO] - ANNIEMUSIC.core.userbot - ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:17:41 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:17:41 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:17:42 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:17:49 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:17:49 - INFO] - ANNIEMUSIC.core.userbot - **˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:17:49 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:17:50 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1168bd290>
+[02-Apr-26 21:17:50 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12a350d50>
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:17:50 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:17:50 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:17:51 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:17:58 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:17:58 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:17:59 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:17:59 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:17:59 - INFO] - ANNIEMUSIC.core.userbot - ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:18:01 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:18:01 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:18:02 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:20:20 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:20:20 - INFO] - ANNIEMUSIC.core.userbot - **˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:20:20 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:20:21 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x115403b90>
+[02-Apr-26 21:20:21 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x114483710>
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:20:28 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:20:29 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:20:30 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:20:37 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:20:37 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:20:38 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:20:39 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:20:39 - INFO] - ANNIEMUSIC.core.userbot - ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:20:40 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:20:40 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:20:41 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
+[02-Apr-26 21:31:02 - INFO] - root - Stop signal received (SIGTERM). Exiting...
+[02-Apr-26 21:31:02 - INFO] - ANNIEMUSIC.core.userbot - **˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant ...**
+[02-Apr-26 21:31:02 - INFO] - MUSICBROKN - sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...
+[02-Apr-26 21:31:02 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x12852f350>
+[02-Apr-26 21:31:02 - ERROR] - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x1285514d0>
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.core.mongo - Connecting to your Mongo Database...
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.core.mongo - Connected to your Mongo Database.
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.core.dir - Directories Updated.
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.core.git - Git Client Found [VPS DEPLOYER]
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.misc - ᴅᴀᴛᴀʙᴀsᴇ ʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ💗
+[02-Apr-26 21:31:03 - INFO] - ANNIEMUSIC.core.bot - Starting Bot...
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - 🚀 BROKENXAPI INITIALIZED
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - ⚡ Powered by Broken X Network
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - 🔐 Join Telegram: @AboutBrokenX • @BrokenXNetwork1 For Future Updates
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - Thanks ❤‍🩹 For Using BrokenxAPI
+[02-Apr-26 21:31:04 - INFO] - BrokenXAPI - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02-Apr-26 21:31:05 - INFO] - ANNIEMUSIC.misc - sᴜᴅᴏ ᴜsᴇʀs ᴅᴏɴᴇ..
+[02-Apr-26 21:31:12 - INFO] - ANNIEMUSIC.core.bot - Music Bot Started as ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪ 
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Added job "start_nightmode" to job store "default"
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Added job "close_nightmode" to job store "default"
+[02-Apr-26 21:31:12 - INFO] - apscheduler.scheduler - Scheduler started
+[02-Apr-26 21:31:13 - INFO] - MukeshAPI - Welcome to MukeshAPI! This is a Python package that provides various APIs for developers.
+[02-Apr-26 21:31:13 - INFO] - ANNIEMUSIC.plugins - ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...
+[02-Apr-26 21:31:13 - INFO] - ANNIEMUSIC.core.userbot - ˹🇱ɪʟʏ ꭙ 🇲ᴜsɪᴄ˼ ♪  Assistant starting...
+[02-Apr-26 21:31:15 - INFO] - ANNIEMUSIC.core.userbot - Assistant Started as <a href=tg://user?id=8587713069>˹ʀᴜʜɪ x ᴀꜱꜱɪꜱᴛᴀɴᴛ˼ ♪</a>
+[02-Apr-26 21:31:15 - INFO] - ANNIEMUSIC.core.call - Starting PyTgCalls Client...
+
+[02-Apr-26 21:31:16 - INFO] - MUSICBROKN - Annie Music Robot Started Successfully...
