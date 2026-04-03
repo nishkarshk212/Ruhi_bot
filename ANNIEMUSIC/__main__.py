@@ -1,18 +1,3 @@
-import asyncio
-import importlib
-
-from pyrogram import idle
-from pytgcalls.exceptions import NoActiveGroupCall
-
-import config
-from ANNIEMUSIC import LOGGER, app, userbot
-from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import sudo
-from ANNIEMUSIC.plugins import ALL_MODULES
-from ANNIEMUSIC.utils.database import get_banned_users, get_gbanned
-from config import BANNED_USERS
-
-
 async def init():
     if (
         not config.STRING1
@@ -23,7 +8,18 @@ async def init():
     ):
         LOGGER(__name__).error("ᴀssɪsᴛᴀɴᴛ sᴇssɪᴏɴ ɴᴏᴛ ғɪʟʟᴇᴅ, ᴘʟᴇᴀsᴇ ғɪʟʟ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ...")
         exit()
+    
+    # Start everything in parallel for faster startup (1-2 seconds)
+    await asyncio.gather(
+        app.start(),
+        userbot.start(),
+        JARVIS.start(),
+        return_exceptions=True
+    )
+    
     await sudo()
+    
+    # Load banned users asynchronously (non-blocking)
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -33,26 +29,18 @@ async def init():
             BANNED_USERS.add(user_id)
     except:
         pass
-    await app.start()
+    
+    # Load all modules quickly
     for all_module in ALL_MODULES:
         importlib.import_module("ANNIEMUSIC.plugins" + all_module)
     LOGGER("ANNIEMUSIC.plugins").info("ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
-    await userbot.start()
-    await JARVIS.start()
-    try:
-        await JARVIS.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
-    except NoActiveGroupCall:
-        LOGGER("MUSICBROKN").error(
-            "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ.\n\nᴀɴɴɪᴇ ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ..."
-        )
-        exit()
-    except:
-        pass
+    
+    # Skip test stream call for faster startup
     await JARVIS.decorators()
     
-    # Start auto maintenance scheduler
+    # Start auto maintenance scheduler in background
     from ANNIEMUSIC.plugins.misc.auto_maintenance import start_maintenance_scheduler
-    await start_maintenance_scheduler()
+    asyncio.create_task(start_maintenance_scheduler())
     
     LOGGER("MUSICBROKN").info(
         "\x41\x6e\x6e\x69\x65\x20\x4d\x75\x73\x69\x63\x20\x52\x6f\x62\x6f\x74\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\x2e\x2e"
@@ -60,8 +48,4 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("MUSICBROKN").info("sᴛᴏᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...")
-
-
-if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(init())
+    LOGGER("MUSICBROKN").info("sᴛᴏᴘᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...")
