@@ -179,6 +179,39 @@ def stream_markup(_, chat_id):
     return buttons
 
 
+def live_stream_markup(_, chat_id):
+    buttons = [
+        [
+            InlineKeyboardButton(text="🔴 LIVE •───────────", callback_data="GetTimer",)
+        ],
+        [
+            InlineKeyboardButton(text="▷ ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II ᴘᴀᴜsᴇ", callback_data=f"ADMIN Pause|{chat_id}",),
+            InlineKeyboardButton(text="sᴋɪᴘ ‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            
+        ],
+        [
+            InlineKeyboardButton(text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(text="๏ ᴍᴏʀᴇ ๏", callback_data=f"PanelMarkup None|{chat_id}",),
+        ],
+        [
+            InlineKeyboardButton(
+                text="๏ ᴜᴘᴅᴀᴛᴇ ๏",
+                url=f"{SUPPORT_CHANNEL}",
+            ),
+            InlineKeyboardButton(
+                text="🖤𝐂ʜᴀᴛ😈",
+                url=f"{SUPPORT_CHAT}",
+            ),
+        ],
+    ]
+
+    return buttons
+
+
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [

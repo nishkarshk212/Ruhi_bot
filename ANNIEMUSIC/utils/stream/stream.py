@@ -10,7 +10,7 @@ from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import db
 from ANNIEMUSIC.utils.database import add_active_video_chat, is_active_chat
 from ANNIEMUSIC.utils.exceptions import AssistantErr
-from ANNIEMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from ANNIEMUSIC.utils.inline import aq_markup, close_markup, live_stream_markup, stream_markup
 from ANNIEMUSIC.utils.pastebin import ANNIEBIN
 from ANNIEMUSIC.utils.stream.queue import put_queue, put_queue_index
 from ANNIEMUSIC.utils.thumbnails import get_thumb
@@ -363,7 +363,7 @@ async def stream(
                 forceplay=forceplay,
             )
             img = await get_thumb(vidid)
-            button = stream_markup(_, chat_id)  # Use simple markup without timer for live streams
+            button = live_stream_markup(_, chat_id)  # Use simple markup without timer for live streams
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
