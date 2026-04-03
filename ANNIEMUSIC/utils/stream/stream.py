@@ -363,14 +363,14 @@ async def stream(
                 forceplay=forceplay,
             )
             img = await get_thumb(vidid)
-            button = stream_markup(_, chat_id)
+            button = stream_markup(_, chat_id)  # Use simple markup without timer for live streams
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
                 caption=_["stream_1"].format(
                     f"https://t.me/{app.username}?start=info_{vidid}",
                     title[:23],
-                    duration_min,
+                    "🔴 LIVE",
                     user_name,
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
