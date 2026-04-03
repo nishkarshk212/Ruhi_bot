@@ -3,6 +3,7 @@ import string
 import asyncio
 import traceback
 from pyrogram import filters
+from pyrogram.enums import ParseMode
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 from ANNIEMUSIC.utils.database import get_assistant
@@ -393,9 +394,39 @@ async def play_commnd(
                 forceplay=fplay,
             )
         except Exception as e:
-            # DEBUG MODE: ERROR PRINT ON CHAT
+            # Get detailed error for logging
             err_msg = traceback.format_exc()
-            await mystic.edit_text(f"❌ **Error in Direct Stream:**\n\n`{err_msg}`")
+            
+            # Send detailed error to log group
+            try:
+                logger_text = f"""
+<b>❌ {app.mention} Play Error</b>
+
+<b>Chat ID :</b> <code>{message.chat.id}</code>
+<b>Chat Name :</b> {message.chat.title}
+<b>User ID :</b> <code>{message.from_user.id}</code>
+<b>Name :</b> {message.from_user.mention}
+
+<b>Query :</b> {message.text.split(None, 1)[1] if len(message.text.split()) > 1 else 'N/A'}
+<b>Stream Type :</b> {streamtype}
+
+<b>Error:</b>
+<code>{err_msg}</code>"""
+                await app.send_message(
+                    chat_id=config.LOGGER_ID,
+                    text=logger_text,
+                    parse_mode=ParseMode.HTML,
+                    disable_web_page_preview=True,
+                )
+            except:
+                pass
+            
+            # Show simple error message to user
+            await mystic.edit_text(
+                "ꜱᴏʀʀʏ ʙᴀʙᴜ ! ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴏᴛʜᴇʀ\n\n" 
+                "ᴛʜɪs ᴛʀᴀᴄᴋ ᴄᴏᴜʟᴅɴ'ᴛ ʙᴇ ᴘʟᴀʏᴇᴅ.\n" 
+                "ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ sᴏɴɢ. 🥀"
+            )
             return
         await mystic.delete()
         return await play_logs(message, streamtype=streamtype)
