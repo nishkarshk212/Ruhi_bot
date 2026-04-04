@@ -26,6 +26,7 @@ from ANNIEMUSIC.utils.database import (
     mute_on,
     is_muted,
     set_loop,
+    get_skip_perm,
 )
 from ANNIEMUSIC.utils.decorators.language import languageCB
 from ANNIEMUSIC.utils.formatters import seconds_to_min
@@ -319,6 +320,24 @@ async def del_back_playlist(client, CallbackQuery, _):
             _["admin_44"].format(mention)
         )
     elif command == "Skip" or command == "Replay":
+        # Check skip permission for Skip command
+        if command == "Skip":
+            skip_perm = await get_skip_perm(chat_id)
+            user_status = await client.get_chat_member(chat_id, CallbackQuery.from_user.id)
+            
+            # Permission check based on settings
+            if skip_perm == "admin":
+                # Only admins and SUDOERS can skip
+                if user_status.status not in [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER] and CallbackQuery.from_user.id not in SUDOERS:
+                    return await CallbackQuery.answer("❌ Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ sᴋɪᴘ sᴏɴɢs.", show_alert=True)
+            elif skip_perm == "member":
+                # Members and admins can skip (not restricted users)
+                if user_status.status == ChatMemberStatus.BANNED:
+                    return await CallbackQuery.answer("❌ Yᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜɪs ɢʀᴏᴜᴘ.", show_alert=True)
+            elif skip_perm == "everyone":
+                # Everyone can skip (no check needed)
+                pass
+        
         check = db.get(chat_id)
         if command == "Skip":
             txt = f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🎄\n│ \n└ʙʏ : {mention} 🥀"
