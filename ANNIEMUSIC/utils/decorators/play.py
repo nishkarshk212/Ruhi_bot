@@ -116,19 +116,34 @@ def PlayWrapper(command):
         if not await is_active_chat(chat_id):
             userbot = await get_assistant(chat_id)
             try:
+                # Ensure userbot has an ID
+                if not hasattr(userbot, 'id') or not userbot.id:
+                    return await message.reply_text(
+                        "❌ Assistant not ready. Please try again in a few seconds."
+                    )
+                
                 try:
                     get = await app.get_chat_member(chat_id, userbot.id)
                 except ChatAdminRequired:
                     return await message.reply_text(_["call_1"])
-                if (
-                    get.status == ChatMemberStatus.BANNED
-                    or get.status == ChatMemberStatus.RESTRICTED
-                ):
-                    return await message.reply_text(
-                        _["call_2"].format(
-                            app.mention, userbot.id, userbot.name, userbot.username
-                        ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text= "๏ 𝗨ɴʙᴀɴ 𝗔ssɪsᴛᴀɴᴛ ๏", callback_data=f"unban_assistant")]])
-                    )
+                except Exception as e:
+                    # Handle PEER_ID_INVALID and other errors gracefully
+                    if "PEER_ID_INVALID" in str(e) or "ID not found" in str(e):
+                        # Assistant hasn't been seen by Telegram yet, skip check
+                        pass
+                    else:
+                        raise
+                else:
+                    if (
+                        get.status == ChatMemberStatus.BANNED
+                        or get.status == ChatMemberStatus.RESTRICTED
+                    ):
+                        return await message.reply_text(
+                            _["call_2"].format(
+                                app.mention, userbot.id, userbot.name, userbot.username
+                            ), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text= "๏ 𝗨ɴʙᴀɴ 𝗔ssɪsᴛᴀɴᴛ ๏", callback_data=f"unban_assistant")]])
+                        )
+
             except UserNotParticipant:
                 if chat_id in links:
                     invitelink = links[chat_id]
