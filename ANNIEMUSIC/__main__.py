@@ -1,3 +1,18 @@
+import asyncio
+import importlib
+
+from pyrogram import idle
+from pytgcalls.exceptions import NoActiveGroupCall
+
+import config
+from ANNIEMUSIC import LOGGER, app, userbot
+from ANNIEMUSIC.core.call import JARVIS
+from ANNIEMUSIC.misc import sudo
+from ANNIEMUSIC.plugins import ALL_MODULES
+from ANNIEMUSIC.utils.database import get_banned_users, get_gbanned
+from config import BANNED_USERS
+
+
 async def init():
     if (
         not config.STRING1
@@ -49,3 +64,7 @@ async def init():
     await app.stop()
     await userbot.stop()
     LOGGER("MUSICBROKN").info("sᴛᴏᴘᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...")
+
+
+if __name__ == "__main__":
+    asyncio.get_event_loop().run_until_complete(init())
