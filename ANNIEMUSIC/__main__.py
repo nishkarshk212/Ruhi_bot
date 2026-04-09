@@ -24,14 +24,19 @@ async def init():
         LOGGER(__name__).error("ᴀssɪsᴛᴀɴᴛ sᴇssɪᴏɴ ɴᴏᴛ ғɪʟʟᴇᴅ, ᴘʟᴇᴀsᴇ ғɪʟʟ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ...")
         exit()
     
-    # Start everything in parallel for faster startup
-    await asyncio.gather(
-        app.start(),
-        userbot.start(),
-        JARVIS.start(),
-        return_exceptions=True
-    )
+    # Start bot and wait for it to be fully ready
+    await app.start()
+    LOGGER("MUSICBROKN").info("Bot client started")
     
+    # Start userbot
+    await userbot.start()
+    LOGGER("MUSICBROKN").info("Userbot client started")
+    
+    # Start PyTgCalls
+    await JARVIS.start()
+    LOGGER("MUSICBROKN").info("PyTgCalls client started")
+    
+    # Load sudo users
     await sudo()
     
     # Load banned users asynchronously (non-blocking)
@@ -45,12 +50,12 @@ async def init():
     except Exception as e:
         LOGGER(__name__).warning(f"Failed to load banned users: {e}")
     
-    # Load all modules quickly
+    # Load all modules (this registers all message handlers)
     for all_module in ALL_MODULES:
         importlib.import_module("ANNIEMUSIC.plugins" + all_module)
     LOGGER("ANNIEMUSIC.plugins").info("ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
     
-    # Skip test stream call for faster startup
+    # Register decorators
     await JARVIS.decorators()
     
     # Start auto maintenance scheduler in background
@@ -58,11 +63,20 @@ async def init():
     asyncio.create_task(start_maintenance_scheduler())
     
     LOGGER("MUSICBROKN").info("Annie Music Robot Started Successfully...")
+    LOGGER("MUSICBROKN").info("Bot is now listening for messages...")
+    
+    # This will keep the bot running and processing updates
     await idle()
+    
+    LOGGER("MUSICBROKN").info("sᴛᴏᴘᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...")
     await app.stop()
     await userbot.stop()
-    LOGGER("MUSICBROKN").info("sᴛᴏᴘᴘɪɴɢ ʙʀᴏᴋᴇɴ x ᴍᴜsɪᴄ ʙᴏᴛ ...")
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(init())
+    try:
+        asyncio.get_event_loop().run_until_complete(init())
+    except KeyboardInterrupt:
+        LOGGER("MUSICBROKN").info("Bot stopped by user")
+    except Exception as e:
+        LOGGER("MUSICBROKN").error(f"Bot crashed: {e}")
