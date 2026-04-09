@@ -1,23 +1,54 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
+from pyrogram.enums import ChatMemberStatus
 
 import config
 from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import get_loop
-from ANNIEMUSIC.utils.decorators import AdminRightsCheck
+from ANNIEMUSIC.utils.database import get_loop, get_skip_perm, get_lang
 from ANNIEMUSIC.utils.inline import close_markup, stream_markup
 from ANNIEMUSIC.utils.stream.autoclear import auto_clean
 from ANNIEMUSIC.utils.thumbnails import get_thumb
-from config import BANNED_USERS
+from config import BANNED_USERS, SUDOERS
+from strings import get_string
 
 
 @app.on_message(
     filters.command(["skip", "cskip", "next", "cnext"], prefixes=["/", "!"]) & filters.group & ~BANNED_USERS
 )
-@AdminRightsCheck
-async def skip(cli, message: Message, _, chat_id):
+async def skip(cli, message: Message, chat_id):
+    # Get language
+    try:
+        language = await get_lang(chat_id)
+        _ = get_string(language)
+    except:
+        _ = get_string("en")
+    
+    # Check skip permission settings
+    skip_perm = await get_skip_perm(chat_id)
+    user_id = message.from_user.id
+    
+    # Get user status in the chat
+    try:
+        user_status = await app.get_chat_member(chat_id, user_id)
+    except:
+        return await message.reply_text("❌ Unable to verify your permissions.")
+    
+    # Permission check based on settings
+    if skip_perm == "admin":
+        # Only admins and SUDOERS can skip
+        if user_status.status not in [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER] and user_id not in SUDOERS:
+            return await message.reply_text("❌ Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ sᴋɪᴘ sᴏɴɢs.\n\n💡 Cʜᴀɴɢᴇ sᴋɪᴘ ᴘᴇʀᴍɪssɪᴏɴs ɪɴ sᴇᴛᴛɪɴɢs.")
+    elif skip_perm == "member":
+        # Members and admins can skip (not restricted users)
+        if user_status.status == ChatMemberStatus.BANNED or user_status.status == ChatMemberStatus.RESTRICTED:
+            return await message.reply_text("❌ Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ sᴋɪᴘ sᴏɴɢs.")
+    elif skip_perm == "everyone":
+        # Everyone can skip (no check needed)
+        pass
+    
+    # Continue with skip logic...
     if not len(message.command) < 2:
         loop = await get_loop(chat_id)
         if loop != 0:
@@ -111,7 +142,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             image = None
         try:
-            await JARIS.skip_stream(chat_id, link, video=status, image=image)
+            await JARVIS.skip_stream(chat_id, link, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
