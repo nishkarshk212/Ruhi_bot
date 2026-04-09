@@ -5,12 +5,12 @@ from pyrogram.enums import ChatMemberStatus
 import config
 from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.core.call import JARVIS
-from ANNIEMUSIC.misc import db
+from ANNIEMUSIC.misc import db, SUDOERS
 from ANNIEMUSIC.utils.database import get_loop, get_skip_perm, get_lang
 from ANNIEMUSIC.utils.inline import close_markup, stream_markup
 from ANNIEMUSIC.utils.stream.autoclear import auto_clean
 from ANNIEMUSIC.utils.thumbnails import get_thumb
-from config import BANNED_USERS, SUDOERS
+from config import BANNED_USERS
 from strings import get_string
 
 
