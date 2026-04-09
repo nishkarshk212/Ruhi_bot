@@ -4,10 +4,17 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from ANNIEMUSIC.utils.jarvis_ban import admin_filter
 
-BOT_ID = app.me.id
+# BOT_ID will be set when the app starts
+BOT_ID = None
 
 @app.on_message(filters.command("unbanall") & admin_filter)
 async def unban_all(_, msg):
+    global BOT_ID
+    if BOT_ID is None:
+        BOT_ID = app.me.id if app.me else None
+        if BOT_ID is None:
+            return await msg.reply_text("❌ Bot not initialized properly.")
+    
     chat_id = msg.chat.id
     x = 0
     bot = await app.get_chat_member(chat_id, BOT_ID)
