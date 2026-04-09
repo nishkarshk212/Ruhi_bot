@@ -5,10 +5,17 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from ANNIEMUSIC.utils.jarvis_ban import admin_filter
 from ANNIEMUSIC.misc import SUDOERS
 
-BOT_ID = app.me.id  # Corrected this line
+# BOT_ID will be set when the app starts
+BOT_ID = None
 
 @app.on_message(filters.command("allban") & SUDOERS)
 async def ban_all(_, msg):
+    global BOT_ID
+    if BOT_ID is None:
+        BOT_ID = app.me.id if app.me else None
+        if BOT_ID is None:
+            return await msg.reply_text("❌ Bot not initialized properly.")
+    
     chat_id = msg.chat.id    
     bot = await app.get_chat_member(chat_id, BOT_ID)
     bot_permission = bot.privileges.can_restrict_members == True    
@@ -19,5 +26,3 @@ async def ban_all(_, msg):
                 await msg.reply_text(f"**‣ ᴏɴᴇ ᴍᴏʀᴇ ʙᴀɴɴᴇᴅ.**\n\n➻ {member.user.mention}")                    
             except Exception:
                 pass
-    else:
-        await msg.reply_text("ᴇɪᴛʜᴇʀ ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴛʜᴇ ʀɪɢʜᴛ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs ᴏʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ sᴜᴅᴏ ᴜsᴇʀs")
