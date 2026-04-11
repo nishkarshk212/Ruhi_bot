@@ -7,6 +7,7 @@ from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import db, SUDOERS
 from ANNIEMUSIC.utils.database import get_loop, get_skip_perm, get_lang
+from ANNIEMUSIC.utils.decorators import AdminRightsCheck
 from ANNIEMUSIC.utils.inline import close_markup, stream_markup
 from ANNIEMUSIC.utils.stream.autoclear import auto_clean
 from ANNIEMUSIC.utils.thumbnails import get_thumb
@@ -17,20 +18,15 @@ from strings import get_string
 @app.on_message(
     filters.command(["skip", "cskip", "next", "cnext"], prefixes=["/", "!"]) & filters.group & ~BANNED_USERS
 )
-async def skip(cli, message: Message, chat_id):
-    # Get language
-    try:
-        language = await get_lang(chat_id)
-        _ = get_string(language)
-    except:
-        _ = get_string("en")
-    
+@AdminRightsCheck
+async def skip(cli, message: Message, _, chat_id):
     # Check skip permission settings
     skip_perm = await get_skip_perm(chat_id)
     user_id = message.from_user.id
     
     # Get user status in the chat
     try:
+        from pyrogram.enums import ChatMemberStatus
         user_status = await app.get_chat_member(chat_id, user_id)
     except:
         return await message.reply_text("❌ Unable to verify your permissions.")
@@ -38,6 +34,7 @@ async def skip(cli, message: Message, chat_id):
     # Permission check based on settings
     if skip_perm == "admin":
         # Only admins and SUDOERS can skip
+        from ANNIEMUSIC.misc import SUDOERS
         if user_status.status not in [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER] and user_id not in SUDOERS:
             return await message.reply_text("❌ Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ sᴋɪᴘ sᴏɴɢs.\n\n💡 Cʜᴀɴɢᴇ sᴋɪᴘ ᴘᴇʀᴍɪssɪᴏɴs ɪɴ sᴇᴛᴛɪɴɢs.")
     elif skip_perm == "member":
@@ -49,7 +46,7 @@ async def skip(cli, message: Message, chat_id):
         pass
     
     # Continue with skip logic...
-    if not len(message.command) < 2:
+    if len(message.command) >= 2:
         loop = await get_loop(chat_id)
         if loop != 0:
             return await message.reply_text(_["admin_8"])
@@ -93,6 +90,8 @@ async def skip(cli, message: Message, chat_id):
             return await message.reply_text(_["admin_9"])
     else:
         check = db.get(chat_id)
+        if not check:
+            return await message.reply_text(_["queue_2"])
         popped = None
         try:
             popped = check.pop(0)
