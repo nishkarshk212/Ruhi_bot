@@ -259,7 +259,29 @@ async def broadcast_callbacks(client, callback_query: CallbackQuery):
         BROADCAST_DATA[user_id] = {}
 
 
-@app.on_message(SUDOERS & ~filters.command(["broadcast", "start", "help"]))
+@app.on_message(filters.command("settext") & SUDOERS)
+async def set_broadcast_text(client, message: Message):
+    if not message.reply_to_message:
+        return await message.reply_text("Please reply to a message to set its text as the broadcast text.")
+    
+    if not message.reply_to_message.text and not message.reply_to_message.caption:
+        return await message.reply_text("The replied message doesn't have any text or caption.")
+    
+    text = message.reply_to_message.text or message.reply_to_message.caption
+    user_id = message.from_user.id
+    
+    BROADCAST_DATA[user_id] = BROADCAST_DATA.get(user_id, {})
+    BROADCAST_DATA[user_id]["text"] = text
+    BROADCAST_DATA[user_id]["state"] = None
+    
+    await message.reply_text(
+        "**Broadcast text has been set successfully!**\n\n"
+        f"**Text:** {text[:100]}{'...' if len(text) > 100 else ''}",
+        reply_markup=get_broadcast_menu()
+    )
+
+
+@app.on_message(SUDOERS & ~filters.command(["broadcast", "start", "help", "settext"]))
 async def broadcast_input_handler(client, message: Message):
     user_id = message.from_user.id
     if user_id not in BROADCAST_DATA or not BROADCAST_DATA[user_id].get("state"):
