@@ -3,6 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from ANNIEMUSIC import app
 from ANNIEMUSIC.misc import SUDOERS
@@ -41,11 +42,18 @@ async def braodcast_message(client, message, _):
             query = query.replace("-assistant", "")
         if "-user" in query:
             query = query.replace("-user", "")
+        if "-button" in query:
+            query = query.replace("-button", "")
         if query == "":
             return await message.reply_text(_["broad_8"])
 
     IS_BROADCASTING = True
     await message.reply_text(_["broad_1"])
+
+    # Parse buttons from the message if -button flag is used
+    reply_markup = None
+    if "-button" in message.text and not message.reply_to_message:
+        query, reply_markup = parse_buttons(query)
 
     if "-nobot" not in message.text:
         sent = 0
@@ -59,7 +67,7 @@ async def braodcast_message(client, message, _):
                 m = (
                     await app.forward_messages(i, y, x)
                     if message.reply_to_message
-                    else await app.send_message(i, text=query)
+                    else await app.send_message(i, text=query, reply_markup=reply_markup)
                 )
                 if "-pin" in message.text:
                     try:
@@ -98,7 +106,7 @@ async def braodcast_message(client, message, _):
                 m = (
                     await app.forward_messages(i, y, x)
                     if message.reply_to_message
-                    else await app.send_message(i, text=query)
+                    else await app.send_message(i, text=query, reply_markup=reply_markup)
                 )
                 susr += 1
                 await asyncio.sleep(0.2)
@@ -127,7 +135,7 @@ async def braodcast_message(client, message, _):
                     await client.forward_messages(
                         dialog.chat.id, y, x
                     ) if message.reply_to_message else await client.send_message(
-                        dialog.chat.id, text=query
+                        dialog.chat.id, text=query, reply_markup=reply_markup
                     )
                     sent += 1
                     await asyncio.sleep(3)
@@ -144,6 +152,55 @@ async def braodcast_message(client, message, _):
         except:
             pass
     IS_BROADCASTING = False
+
+
+def parse_buttons(text):
+    """
+    Parse buttons from text using markdown format:
+    [Button Text](url:http://example.com)
+    [Button Text](callback:some_data)
+    
+    Buttons should be separated by | for same row
+    Example:
+    Hello world
+    [Visit](url:https://example.com) | [Support](url:https://t.me/support)
+    [Callback](callback:test_data)
+    """
+    import re
+    
+    button_pattern = r'\[([^\]]+)\]\((url|callback):([^\)]+)\)'
+    buttons = []
+    
+    # Split text by lines to handle button rows
+    lines = text.split('\n')
+    clean_text = []
+    
+    for line in lines:
+        # Check if line contains buttons
+        if re.search(button_pattern, line):
+            # Check if multiple buttons in same row (separated by |)
+            button_parts = line.split('|')
+            row = []
+            
+            for part in button_parts:
+                match = re.search(button_pattern, part.strip())
+                if match:
+                    btn_text = match.group(1).strip()
+                    btn_type = match.group(2)
+                    btn_value = match.group(3).strip()
+                    
+                    if btn_type == 'url':
+                        row.append(InlineKeyboardButton(text=btn_text, url=btn_value))
+                    elif btn_type == 'callback':
+                        row.append(InlineKeyboardButton(text=btn_text, callback_data=btn_value))
+            
+            if row:
+                buttons.append(row)
+        else:
+            clean_text.append(line)
+    
+    reply_markup = InlineKeyboardMarkup(buttons) if buttons else None
+    return '\n'.join(clean_text).strip(), reply_markup
 
 
 async def auto_clean():
