@@ -425,36 +425,28 @@ async def skip_perm_menu(client, CallbackQuery: CallbackQuery, _):
         "everyone": "Eᴠᴇʀʏᴏɴᴇ"
     }
     
-    await CallbackQuery.edit_message_text(
-        f"**Sᴋɪᴘ Pᴇʀᴍɪssɪᴏɴ Sᴇᴛᴛɪɴɢs**\n\n"
-        f"Cᴜʀʀᴇɴᴛ: {perm_text.get(current_perm, 'Admins Only')}\n\n"
-        f"Wʜᴏ ᴄᴀɴ sᴋɪᴘ sᴏɴɢs?",
+    await CallbackQuery.edit_message_reply_markup(
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
 
 @app.on_callback_query(filters.regex(r"set_skip_(admin|member|everyone)") & ~BANNED_USERS)
-@languageCB
+@ActualAdminCB
 async def set_skip_permission(client, CallbackQuery: CallbackQuery, _):
-    try:
-        await CallbackQuery.answer()
-    except:
-        pass
-    
     chat_id = CallbackQuery.message.chat.id
     permission = CallbackQuery.data.split("_")[-1]
     
     await set_skip_perm(chat_id, permission)
     
-    perm_text = {
-        "admin": "✅ Aᴅᴍɪɴs Oɴʟʏ",
-        "member": "✅ Aʟʟ Mᴇᴍʙᴇʀs",
-        "everyone": "✅ Eᴠᴇʀʏᴏɴᴇ"
-    }
+    try:
+        await CallbackQuery.answer(f"Sᴋɪᴘ ᴘᴇʀᴍɪssɪᴏɴ sᴇᴛ ᴛᴏ {permission.capitalize()}", show_alert=True)
+    except:
+        pass
     
-    await CallbackQuery.edit_message_text(
-        f"**Sᴋɪᴘ Pᴇʀᴍɪssɪᴏɴ Uᴘᴅᴀᴛᴇᴅ!**\n\n"
-        f"Nᴏᴡ: {perm_text.get(permission, 'Admins Only')}\n\n"
-        f"{permission.capitalize()} ᴄᴀɴ ɴᴏᴡ sᴋɪᴘ sᴏɴɢs.",
-        reply_markup=InlineKeyboardMarkup(skip_perm_markup(_, permission)),
-    )
+    buttons = skip_perm_markup(_, permission)
+    try:
+        return await CallbackQuery.edit_message_reply_markup(
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
+    except MessageNotModified:
+        return
