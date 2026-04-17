@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, Message
 
 from ANNIEMUSIC import app
 from ANNIEMUSIC.misc import SUDOERS
@@ -20,10 +20,39 @@ from config import adminlist
 
 IS_BROADCASTING = False
 
+# Dictionary to store broadcast configuration
+BROADCAST_DATA = {}
+
+def get_broadcast_menu():
+    buttons = [
+        [
+            InlineKeyboardButton("Set Media", callback_data="broadcast_set_media"),
+            InlineKeyboardButton("Set Text", callback_data="broadcast_set_text"),
+        ],
+        [
+            InlineKeyboardButton("Set Button", callback_data="broadcast_set_button"),
+        ],
+        [
+            InlineKeyboardButton("Broadcast", callback_data="broadcast_start"),
+        ],
+    ]
+    return InlineKeyboardMarkup(buttons)
+
 
 @app.on_message(filters.command("broadcast") & SUDOERS)
 @language
 async def braodcast_message(client, message, _):
+    # If no arguments and not a reply, show the menu
+    if not message.reply_to_message and len(message.command) < 2:
+        return await message.reply_text(
+            "**Broadcast Configuration Menu**\n\nConfigure your broadcast message using the buttons below.\n\n"
+            f"**Current Config:**\n"
+            f"Media: {'Set' if message.from_user.id in BROADCAST_DATA and BROADCAST_DATA[message.from_user.id].get('media') else 'Not Set'}\n"
+            f"Text: {'Set' if message.from_user.id in BROADCAST_DATA and BROADCAST_DATA[message.from_user.id].get('text') else 'Not Set'}\n"
+            f"Button: {'Set' if message.from_user.id in BROADCAST_DATA and BROADCAST_DATA[message.from_user.id].get('buttons') else 'Not Set'}",
+            reply_markup=get_broadcast_menu()
+        )
+
     global IS_BROADCASTING
     if message.reply_to_message:
         x = message.reply_to_message.id
@@ -154,36 +183,155 @@ async def braodcast_message(client, message, _):
     IS_BROADCASTING = False
 
 
+@app.on_callback_query(filters.regex("^broadcast_") & SUDOERS)
+async def broadcast_callbacks(client, callback_query: CallbackQuery):
+    user_id = callback_query.from_user.id
+    data = callback_query.data
+    
+    if data == "broadcast_set_media":
+        BROADCAST_DATA[user_id] = BROADCAST_DATA.get(user_id, {})
+        BROADCAST_DATA[user_id]["state"] = "awaiting_media"
+        await callback_query.message.edit_text(
+            "Please send the media (Photo, Video, etc.) you want to broadcast.\nReply /cancel to cancel."
+        )
+    elif data == "broadcast_set_text":
+        BROADCAST_DATA[user_id] = BROADCAST_DATA.get(user_id, {})
+        BROADCAST_DATA[user_id]["state"] = "awaiting_text"
+        await callback_query.message.edit_text(
+            "Please send the text you want to broadcast.\nReply /cancel to cancel."
+        )
+    elif data == "broadcast_set_button":
+        BROADCAST_DATA[user_id] = BROADCAST_DATA.get(user_id, {})
+        BROADCAST_DATA[user_id]["state"] = "awaiting_button"
+        await callback_query.message.edit_text(
+            "Please send the buttons in one of these formats:\n\n"
+            "**1. Simple Format (Recommended):**\n"
+            "`Button Text | https://t.me/link` (One button per row)\n"
+            "`Btn1 | link1 | Btn2 | link2` (Multiple buttons per row)\n\n"
+            "**2. Advanced Format:**\n"
+            "`[Text](url:https://t.me/link)`\n"
+            "`[Text](callback:data)`\n\n"
+            "Reply /cancel to cancel."
+        )
+    elif data == "broadcast_start":
+        user_data = BROADCAST_DATA.get(user_id, {})
+        media = user_data.get("media")
+        text = user_data.get("text")
+        buttons = user_data.get("buttons")
+        
+        if not media and not text:
+            return await callback_query.answer("Please set at least media or text to broadcast.", show_alert=True)
+        
+        await callback_query.message.edit_text("Broadcasting started...")
+        
+        # Broadcasting logic
+        schats = await get_served_chats()
+        susers = await get_served_users()
+        
+        sent_chats = 0
+        sent_users = 0
+        
+        # Combine all targets
+        targets = []
+        for chat in schats:
+            targets.append(int(chat["chat_id"]))
+        for user in susers:
+            targets.append(int(user["user_id"]))
+            
+        for i in targets:
+            try:
+                if media:
+                    # Forward the stored media message
+                    await media.copy(i, caption=text, reply_markup=buttons)
+                else:
+                    await app.send_message(i, text=text, reply_markup=buttons)
+                
+                if i < 0: sent_chats += 1
+                else: sent_users += 1
+                await asyncio.sleep(0.2)
+            except FloodWait as fw:
+                await asyncio.sleep(int(fw.value))
+            except:
+                continue
+        
+        await callback_query.message.reply_text(f"Broadcast completed!\n\nSent to {sent_chats} chats and {sent_users} users.")
+        # Clear data after broadcast
+        BROADCAST_DATA[user_id] = {}
+
+
+@app.on_message(SUDOERS & ~filters.command(["broadcast", "start", "help"]))
+async def broadcast_input_handler(client, message: Message):
+    user_id = message.from_user.id
+    if user_id not in BROADCAST_DATA or not BROADCAST_DATA[user_id].get("state"):
+        return
+    
+    if message.text == "/cancel":
+        BROADCAST_DATA[user_id]["state"] = None
+        return await message.reply_text("Broadcast configuration cancelled.", reply_markup=get_broadcast_menu())
+
+    state = BROADCAST_DATA[user_id]["state"]
+    
+    if state == "awaiting_media":
+        if message.photo or message.video or message.document or message.audio or message.animation:
+            BROADCAST_DATA[user_id]["media"] = message
+            BROADCAST_DATA[user_id]["state"] = None
+            await message.reply_text("Media set successfully!", reply_markup=get_broadcast_menu())
+        else:
+            await message.reply_text("Please send valid media (Photo, Video, Document, etc.).")
+            
+    elif state == "awaiting_text":
+        if message.text:
+            BROADCAST_DATA[user_id]["text"] = message.text
+            BROADCAST_DATA[user_id]["state"] = None
+            await message.reply_text("Text set successfully!", reply_markup=get_broadcast_menu())
+        else:
+            await message.reply_text("Please send text.")
+            
+    elif state == "awaiting_button":
+        if message.text:
+            _, reply_markup = parse_buttons(message.text)
+            if reply_markup:
+                BROADCAST_DATA[user_id]["buttons"] = reply_markup
+                BROADCAST_DATA[user_id]["state"] = None
+                await message.reply_text("Buttons set successfully!", reply_markup=get_broadcast_menu())
+            else:
+                await message.reply_text("Invalid button format. Please use `[Text](url:URL)`.")
+        else:
+            await message.reply_text("Please send button text.")
+
+
+
 def parse_buttons(text):
     """
-    Parse buttons from text using markdown format:
-    [Button Text](url:http://example.com)
-    [Button Text](callback:some_data)
-    
-    Buttons should be separated by | for same row
-    Example:
-    Hello world
-    [Visit](url:https://example.com) | [Support](url:https://t.me/support)
-    [Callback](callback:test_data)
+    Parse buttons from text.
+    Supported formats:
+    1. Simple: Button Text | URL
+    2. Multiple in row: Button 1 | URL1 | Button 2 | URL2
+    3. Markdown: [Text](url:URL) or [Text](callback:DATA)
     """
     import re
     
-    button_pattern = r'\[([^\]]+)\]\((url|callback):([^\)]+)\)'
-    buttons = []
+    # Regex for markdown format
+    md_button_pattern = r'\[([^\]]+)\]\((url|callback):([^\)]+)\)'
+    # Regex for simple format: Any text | Any URL (starting with http)
+    simple_button_pattern = r'(.+?)\s*\|\s*(https?://[^\s|]+)'
     
-    # Split text by lines to handle button rows
+    buttons = []
     lines = text.split('\n')
     clean_text = []
     
     for line in lines:
-        # Check if line contains buttons
-        if re.search(button_pattern, line):
-            # Check if multiple buttons in same row (separated by |)
-            button_parts = line.split('|')
-            row = []
+        line = line.strip()
+        if not line:
+            continue
             
-            for part in button_parts:
-                match = re.search(button_pattern, part.strip())
+        row = []
+        # First check for markdown style
+        if re.search(md_button_pattern, line):
+            # Check if multiple markdown buttons in same row (separated by |)
+            parts = line.split('|')
+            for part in parts:
+                match = re.search(md_button_pattern, part.strip())
                 if match:
                     btn_text = match.group(1).strip()
                     btn_type = match.group(2)
@@ -193,9 +341,25 @@ def parse_buttons(text):
                         row.append(InlineKeyboardButton(text=btn_text, url=btn_value))
                     elif btn_type == 'callback':
                         row.append(InlineKeyboardButton(text=btn_text, callback_data=btn_value))
-            
-            if row:
-                buttons.append(row)
+        
+        # Then check for simple format (Text | URL)
+        elif '|' in line:
+            # Check for multiple pairs in one line
+            # Format: Btn1 | Link1 | Btn2 | Link2
+            # We split by | and process in pairs
+            parts = [p.strip() for p in line.split('|')]
+            # If we have even number of parts (text, url, text, url...)
+            # Or if it's Btn | Link | something else, we take pairs
+            for i in range(0, len(parts) - 1, 2):
+                btn_text = parts[i]
+                btn_url = parts[i+1]
+                
+                # Check if it looks like a URL
+                if re.match(r'https?://[^\s]+', btn_url):
+                    row.append(InlineKeyboardButton(text=btn_text, url=btn_url))
+        
+        if row:
+            buttons.append(row)
         else:
             clean_text.append(line)
     
