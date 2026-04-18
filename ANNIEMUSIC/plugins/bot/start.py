@@ -64,7 +64,7 @@ async def delete_sticker_after_delay(message, delay):
     await asyncio.sleep(delay)
     await message.delete()
 
-@app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.private)
 @LanguageStart
 async def start_pm(client, message: Message, _):
     if await is_maintenance() is False:
