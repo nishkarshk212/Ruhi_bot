@@ -71,7 +71,11 @@ async def init():
     
     LOGGER("MUSICBROKN").info("Annie Music Robot Started Successfully...")
     LOGGER("MUSICBROKN").info("Bot is now listening for messages...")
-    
+
+    @app.on_raw_update()
+    async def raw_update_handler(client, update, users, chats):
+        LOGGER("MUSICBROKN").info(f"RAW UPDATE: {type(update).__name__}")
+
     # This will keep the bot running and processing updates
     await idle()
     
