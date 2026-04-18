@@ -16,6 +16,7 @@ import logging
 import aiohttp
 from ANNIEMUSIC import LOGGER
 from urllib.parse import urlparse
+from youtubesearchpython import Video
 
 
 try:
@@ -310,7 +311,8 @@ class YouTubeAPI:
             
         # Updated to use YoutubeSearch
         try:
-            results = YoutubeSearch(link, max_results=1).to_dict()
+            loop = asyncio.get_event_loop()
+            results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=1).to_dict())
             if not results:
                 return None, None, None, None, None
             
@@ -331,7 +333,8 @@ class YouTubeAPI:
         if "&" in link:
             link = link.split("&")[0]
         try:
-            results = YoutubeSearch(link, max_results=1).to_dict()
+            loop = asyncio.get_event_loop()
+            results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=1).to_dict())
             if results:
                 return results[0].get("title")
         except:
@@ -343,7 +346,8 @@ class YouTubeAPI:
         if "&" in link:
             link = link.split("&")[0]
         try:
-            results = YoutubeSearch(link, max_results=1).to_dict()
+            loop = asyncio.get_event_loop()
+            results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=1).to_dict())
             if results:
                 return results[0].get("duration")
         except:
@@ -355,7 +359,8 @@ class YouTubeAPI:
         if "&" in link:
             link = link.split("&")[0]
         try:
-            results = YoutubeSearch(link, max_results=1).to_dict()
+            loop = asyncio.get_event_loop()
+            results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=1).to_dict())
             if results:
                 return results[0].get("thumbnails", [""])[0]
         except:
@@ -500,7 +505,8 @@ class YouTubeAPI:
         
         # Updated slider to use YoutubeSearch (gets 10 results by default roughly)
         try:
-            results = YoutubeSearch(link, max_results=10).to_dict()
+            loop = asyncio.get_event_loop()
+            results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=10).to_dict())
             
             if not results or len(results) <= query_type:
                 return None, None, None, None
@@ -522,9 +528,54 @@ class YouTubeAPI:
             print(f"Slider Error: {e}")
             return None, None, None, None
 
-    async def get_stream_link(self, link: str, videoid: Union[bool, str] = None):
+    async def get_stream_link(self, link: str, videoid: Union[bool, str] = None, video: bool = False):
+        video_id = link.split("v=")[-1].split("&")[0] if "v=" in link else link
         if videoid:
+            video_id = link
             link = self.base + link
+            
+        logger = LOGGER("NexGenAPI/Stream")
+        logger.info(f"🔗 [STREAM] Getting link for: {video_id}")
+
+        # Try NexGen API first for fast stream link
+        try:
+            async with aiohttp.ClientSession() as session:
+                url = f"{NEXGEN_API_URL}/song/{video_id}"
+                params = {"api": API_KEY}
+                async with session.get(url, params=params, timeout=aiohttp.ClientTimeout(total=30)) as response:
+                    if response.status == 200:
+                        data = await response.json()
+                        if data and data.get("status") == "done" and data.get("link"):
+                            logger.info(f"✅ [NEXGEN] Direct link found: {data.get('link')}")
+                            return data.get("link")
+        except Exception as e:
+            logger.warning(f"⚠️ [NEXGEN] Failed to get stream link: {e}")
+
+        # Fallback 2: youtubesearchpython (often works when yt-dlp is blocked)
+        try:
+            logger.info(f"🔍 [FALLBACK] Trying youtubesearchpython for: {video_id}")
+            video_info = Video.getInfo(f"https://www.youtube.com/watch?v={video_id}")
+            if video_info and 'streamingData' in video_info:
+                formats = video_info['streamingData'].get('adaptiveFormats', []) + video_info['streamingData'].get('formats', [])
+                for f in formats:
+                    if 'url' in f:
+                        # Prioritize audio only formats for audio stream
+                        if not video and 'audio' in f.get('mimeType', ''):
+                            logger.info(f"✅ [YTSP] Direct link found (audio)")
+                            return f['url']
+                        # Or just any format with URL
+                        elif video and 'video' in f.get('mimeType', ''):
+                            logger.info(f"✅ [YTSP] Direct link found (video)")
+                            return f['url']
+                
+                # If no specific match, just return the first one with URL
+                for f in formats:
+                    if 'url' in f:
+                        return f['url']
+        except Exception as e:
+            logger.warning(f"⚠️ [YTSP] Failed to get stream link: {e}")
+
+        # Fallback 3: yt-dlp -g (might be blocked but good to have)
         proc = await asyncio.create_subprocess_exec(
             "yt-dlp",
             "-g",
@@ -554,6 +605,15 @@ class YouTubeAPI:
             link = self.base + link
 
         if fast_stream:
+            # TRY TO GET DIRECT URL FROM NexGen API FIRST
+            try:
+                direct_url = await self.get_stream_link(link, videoid=videoid, video=bool(video))
+                if direct_url:
+                    return direct_url, True
+            except Exception:
+                pass
+            
+            # IF NOT, FALLBACK TO yt-dlp -g
             try:
                 # Fast stream: get direct URL using yt-dlp -g
                 proc = await asyncio.create_subprocess_exec(
