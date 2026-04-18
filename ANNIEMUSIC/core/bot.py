@@ -46,9 +46,5 @@ class JARVIS(Client):
             exit()
         LOGGER(__name__).info(f"Music Bot Started as {self.name}")
 
-    async def on_message(self, message):
-        print(f"RAW DEBUG: Received message: {message.text}")
-        await super().on_message(message)
-
     async def stop(self):
         await super().stop()

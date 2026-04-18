@@ -67,7 +67,6 @@ async def delete_sticker_after_delay(message, delay):
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
-    print(f"DEBUG: Received start command from {message.from_user.id}")
     if await is_maintenance() is False:
         if message.from_user.id not in SUDOERS:
             return await message.reply_text(
