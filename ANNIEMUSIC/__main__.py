@@ -8,7 +8,7 @@ except RuntimeError:
     asyncio.set_event_loop(loop)
 
 import importlib
-from pyrogram import idle
+from pyrogram import filters, idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
@@ -31,50 +31,21 @@ async def init():
         LOGGER(__name__).error("ᴀssɪsᴛᴀɴᴛ sᴇssɪᴏɴ ɴᴏᴛ ғɪʟʟᴇᴅ, ᴘʟᴇᴀsᴇ ғɪʟʟ ᴀ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ...")
         exit()
     
-    # Start bot and wait for it to be fully ready
+    # Start bot
     await app.start()
-    LOGGER("MUSICBROKN").info("Bot client started")
-    
-    # Start userbot
+
+    # Disable everything else for debugging
     # await userbot.start()
-    # LOGGER("MUSICBROKN").info("Userbot client started")
-    
-    # Start PyTgCalls
-    await JARVIS.start()
-    LOGGER("MUSICBROKN").info("PyTgCalls client started")
-    
-    # Load sudo users
-    await sudo()
-    
-    # Load banned users asynchronously (non-blocking)
-    try:
-        users = await get_gbanned()
-        for user_id in users:
-            BANNED_USERS.add(user_id)
-        users = await get_banned_users()
-        for user_id in users:
-            BANNED_USERS.add(user_id)
-    except Exception as e:
-        LOGGER(__name__).warning(f"Failed to load banned users: {e}")
-    
-    # Load all modules (this registers all message handlers)
-    for all_module in ALL_MODULES:
-        importlib.import_module("ANNIEMUSIC.plugins" + all_module)
-    LOGGER("ANNIEMUSIC.plugins").info("ʙʀᴏᴋᴇɴ x ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
-    
-    # Register decorators
-    await JARVIS.decorators()
-    
-    # Start auto maintenance scheduler in background
-    from ANNIEMUSIC.plugins.misc.auto_maintenance import start_maintenance_scheduler
-    asyncio.create_task(start_maintenance_scheduler())
-    
+    # await JARVIS.decorators()
+    # for all_module in ALL_MODULES:
+    #    importlib.import_module("ANNIEMUSIC.plugins" + all_module)
+
     LOGGER("MUSICBROKN").info("Annie Music Robot Started Successfully...")
     LOGGER("MUSICBROKN").info("Bot is now listening for messages...")
 
-    @app.on_raw_update()
-    async def raw_update_handler(client, update, users, chats):
-        LOGGER("MUSICBROKN").info(f"RAW UPDATE: {type(update).__name__}")
+    @app.on_message(filters.command("start"))
+    async def start_debug(client, message):
+        await message.reply_text("I am alive!")
 
     # This will keep the bot running and processing updates
     await idle()
