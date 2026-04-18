@@ -401,9 +401,9 @@ class YouTubeAPI:
 
             # Using YoutubeSearch as requested
             try:
-                # YoutubeSearch is synchronous, it's better to run it in a thread if possible
-                # but for now keeping it as is to match original style if preferred.
-                results = YoutubeSearch(link, max_results=1).to_dict()
+                # Running YoutubeSearch in a separate thread to avoid blocking the event loop
+                loop = asyncio.get_event_loop()
+                results = await loop.run_in_executor(None, lambda: YoutubeSearch(link, max_results=1).to_dict())
             except Exception as e:
                 logger.warning(f"⚠️ YoutubeSearch failed: {e}. Trying fallback...")
                 results = []
@@ -522,6 +522,22 @@ class YouTubeAPI:
             print(f"Slider Error: {e}")
             return None, None, None, None
 
+    async def get_stream_link(self, link: str, videoid: Union[bool, str] = None):
+        if videoid:
+            link = self.base + link
+        proc = await asyncio.create_subprocess_exec(
+            "yt-dlp",
+            "-g",
+            "-f", "bestaudio/best",
+            link,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
+        )
+        stdout, stderr = await proc.communicate()
+        if proc.returncode == 0:
+            return stdout.decode().strip()
+        return None
+
     async def download(
         self,
         link: str,
@@ -532,9 +548,29 @@ class YouTubeAPI:
         songvideo: Union[bool, str] = None,
         format_id: Union[bool, str] = None,
         title: Union[bool, str] = None,
+        fast_stream: bool = True,
     ) -> str:
         if videoid:
             link = self.base + link
+
+        if fast_stream:
+            try:
+                # Fast stream: get direct URL using yt-dlp -g
+                proc = await asyncio.create_subprocess_exec(
+                    "yt-dlp",
+                    "-g",
+                    "-f", "bestaudio/best" if not video else "bestvideo+bestaudio/best",
+                    link,
+                    stdout=asyncio.subprocess.PIPE,
+                    stderr=asyncio.subprocess.PIPE
+                )
+                stdout, stderr = await proc.communicate()
+                if proc.returncode == 0:
+                    stream_url = stdout.decode().strip()
+                    if stream_url:
+                        return stream_url, True
+            except Exception:
+                pass
 
         try:
             if video:

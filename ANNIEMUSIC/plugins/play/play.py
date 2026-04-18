@@ -52,9 +52,7 @@ async def play_commnd(
     url,
     fplay,
 ):
-    mystic = await message.reply_text(
-        _["play_2"].format(channel) if channel else random.choice(AYU)
-    )
+    mystic = await message.reply_text("ᴘʟᴧʏɪηɢ ꜱσηɢ......")
     plist_id = None
     slider = None
     plist_type = None
@@ -510,9 +508,7 @@ async def play_music(client, CallbackQuery, _):
         await CallbackQuery.answer()
     except:
         pass
-    mystic = await CallbackQuery.message.reply_text(
-        _["play_2"].format(channel) if channel else random.choice(AYU)
-    )
+    mystic = await CallbackQuery.message.reply_text("ᴘʟᴧʏɪηɢ ꜱσηɢ......")
     try:
         details, track_id = await YouTube.track(vidid, True)
     except Exception as e:
