@@ -8,7 +8,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import _boot_
+from ANNIEMUSIC.misc import _boot_, SUDOERS
 from ANNIEMUSIC.plugins.sudo.sudoers import sudoers_list
 from ANNIEMUSIC.utils import bot_sys_stats
 from ANNIEMUSIC.utils.database import (
@@ -20,11 +20,12 @@ from ANNIEMUSIC.utils.database import (
     get_served_users,
     is_banned_user,
     is_on_off,
+    is_maintenance,
 )
 from ANNIEMUSIC.utils.decorators.language import LanguageStart
 from ANNIEMUSIC.utils.formatters import get_readable_time
 from ANNIEMUSIC.utils.inline import help_pannel, private_panel, start_panel
-from config import BANNED_USERS, AYUV
+from config import BANNED_USERS, AYUV, SUPPORT_CHAT
 from strings import get_string
 
 ANNIE_VID = [
@@ -66,6 +67,12 @@ async def delete_sticker_after_delay(message, delay):
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
+    if await is_maintenance() is False:
+        if message.from_user.id not in SUDOERS:
+            return await message.reply_text(
+                text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_CHAT}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a> ғᴏʀ ᴋɴᴏᴡɪɴɢ ᴛʜᴇ ʀᴇᴀsᴏɴ.",
+                disable_web_page_preview=True,
+            )
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
@@ -143,6 +150,12 @@ async def start_pm(client, message: Message, _):
 @app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def start_gp(client, message: Message, _):
+    if await is_maintenance() is False:
+        if message.from_user.id not in SUDOERS:
+            return await message.reply_text(
+                text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_CHAT}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a> ғᴏʀ ᴋɴᴏᴡɪɴɢ ᴛʜᴇ ʀᴇᴀsᴏɴ.",
+                disable_web_page_preview=True,
+            )
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
