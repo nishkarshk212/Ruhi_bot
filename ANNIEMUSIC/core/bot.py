@@ -16,6 +16,7 @@ class JARVIS(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
             no_updates=False,
+            workers=200,
         )
 
     async def start(self):
