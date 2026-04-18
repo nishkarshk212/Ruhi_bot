@@ -10,7 +10,7 @@ import config
 from ANNIEMUSIC import app
 from ANNIEMUSIC.misc import _boot_, SUDOERS
 from ANNIEMUSIC.plugins.sudo.sudoers import sudoers_list
-from ANNIEMUSIC.utils import bot_sys_stats
+from ANNIEMUSIC.utils.sys import bot_sys_stats
 from ANNIEMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
@@ -131,16 +131,29 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        sticker_message = await message.reply_sticker(sticker=random.choice(STICKERS))
-        asyncio.create_task(delete_sticker_after_delay(sticker_message, 2))  # Delete sticker after 2 seconds
+        try:
+            sticker_message = await message.reply_sticker(sticker=random.choice(STICKERS))
+            asyncio.create_task(delete_sticker_after_delay(sticker_message, 2))
+        except:
+            pass
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
-        UP, CPU, RAM, DISK = await bot_sys_stats()
-        await message.reply_photo(
-            random.choice(ANNIE_VID),
-            caption=random.choice(AYUV).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
-            reply_markup=InlineKeyboardMarkup(out),
-        )
+        try:
+            UP, CPU, RAM, DISK = await bot_sys_stats()
+        except:
+            UP, CPU, RAM, DISK = "N/A", "N/A", "N/A", "N/A"
+        if config.START_IMG_URL:
+            await message.reply_video(
+                random.choice(config.START_IMG_URL),
+                caption=random.choice(AYUV).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
+                reply_markup=InlineKeyboardMarkup(out),
+            )
+        else:
+            await message.reply_photo(
+                random.choice(ANNIE_VID),
+                caption=random.choice(AYUV).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
+                reply_markup=InlineKeyboardMarkup(out),
+            )
         if await is_on_off(2):
             await app.send_message(
                 chat_id=config.LOGGER_ID,

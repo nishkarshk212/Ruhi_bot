@@ -52,7 +52,7 @@ async def play_commnd(
     url,
     fplay,
 ):
-    mystic = await message.reply_text("ᴘʟᴧʏɪηɢ ꜱσηɢ......")
+    mystic = await message.reply_text("🔍 Searching for your song... Please wait 💗")
     plist_id = None
     slider = None
     plist_type = None
