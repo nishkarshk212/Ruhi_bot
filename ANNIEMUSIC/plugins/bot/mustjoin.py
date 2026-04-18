@@ -11,6 +11,7 @@ MUST_JOIN = ""
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
     if not MUST_JOIN:
+        await msg.continue_propagation()
         return
     try:
         try:
@@ -37,3 +38,5 @@ async def must_join_channel(app: Client, msg: Message):
                 pass
     except ChatAdminRequired:
         print(f"๏ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ᴍᴜsᴛ_Jᴏɪɴ ᴄʜᴀᴛ ๏: {MUST_JOIN} !")
+    
+    await msg.continue_propagation()
