@@ -351,11 +351,11 @@ async def play_commnd(
             query = query.replace("-v", "")
         try:
             details, track_id = await YouTube.track(query)
-        except:
-            return await mystic.edit_text(_["play_3"])
+        except Exception as e:
+            return await mystic.edit_text(f"❌ **Error fetching track details:**\n\n`{type(e).__name__}: {str(e)}`")
         
         if not details:
-             return await mystic.edit_text(_["play_3"])
+             return await mystic.edit_text("❌ **No results found for your query.**\n\nTry searching with a different keyword or provide a direct YouTube link.")
 
         streamtype = "youtube"
     if str(playmode) == "Direct":
@@ -515,11 +515,11 @@ async def play_music(client, CallbackQuery, _):
     )
     try:
         details, track_id = await YouTube.track(vidid, True)
-    except:
-        return await mystic.edit_text(_["play_3"])
+    except Exception as e:
+        return await mystic.edit_text(f"❌ **Error fetching callback track details:**\n\n`{type(e).__name__}: {str(e)}`")
     
     if not details:
-        return await mystic.edit_text(_["play_3"])
+        return await mystic.edit_text("❌ **No details found for this track.**\n\nPlease try another song.")
 
     if details["duration_min"]:
         duration_sec = time_to_seconds(details["duration_min"])

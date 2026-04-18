@@ -78,7 +78,7 @@ async def get_telegram_file(telegram_url: str, video_id: str, file_type: str) ->
 
 async def download_song(link: str) -> str:
     """
-    Download audio using ONLY NexGen API
+    Download audio using NexGen API with yt-dlp fallback
     """
     video_id = link.split("v=")[-1].split("&")[0] if "v=" in link else link
     logger = LOGGER("NexGenAPI")
@@ -89,12 +89,17 @@ async def download_song(link: str) -> str:
         return None
 
     os.makedirs("downloads", exist_ok=True)
+    file_path = os.path.join("downloads", f"{video_id}.m4a")
     
-    # Use ONLY NexGen API
+    # Check if already downloaded
+    if os.path.exists(file_path):
+        logger.info(f"✅ [LOCAL] File exists: {file_path}")
+        return file_path
+    
+    # Try NexGen API first
     try:
         logger.info(f"🎵 [NEXGEN] Using API: {NEXGEN_API_URL}/song/{video_id}")
         async with aiohttp.ClientSession() as session:
-            # Step 1: Get the stream URL
             url = f"{NEXGEN_API_URL}/song/{video_id}"
             params = {"api": API_KEY}
             
@@ -107,17 +112,6 @@ async def download_song(link: str) -> str:
                         
                         if status == "done" and stream_link:
                             logger.info(f"✅ [NEXGEN] Got stream link, downloading...")
-                            
-                            # Step 2: Download from the stream URL
-                            file_path = os.path.join("downloads", f"{video_id}.m4a")
-                            
-                            # Check if already downloaded
-                            if os.path.exists(file_path):
-                                logger.info(f"✅ [NEXGEN] File already exists: {file_path}")
-                                return file_path
-                            
-                            # Download the actual audio file
-                            logger.info(f"📥 [NEXGEN] Downloading from: {stream_link}")
                             async with session.get(stream_link, timeout=aiohttp.ClientTimeout(total=300)) as stream_response:
                                 if stream_response.status == 200:
                                     with open(file_path, 'wb') as f:
@@ -127,33 +121,43 @@ async def download_song(link: str) -> str:
                                     if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
                                         logger.info(f"✅ [NEXGEN] Successfully downloaded: {file_path}")
                                         return file_path
-                                    else:
-                                        logger.error(f"❌ [NEXGEN] File empty or corrupted")
-                                        return None
-                                else:
-                                    logger.error(f"❌ [NEXGEN] Stream download failed: {stream_response.status}")
-                                    return None
                         elif status == "downloading":
-                            logger.info("⏳ [NEXGEN] Still processing, waiting...")
+                            logger.info("⏳ [NEXGEN] Still processing, waiting 5s then fallback to yt-dlp...")
                             await asyncio.sleep(5)
-                            # Retry once
-                            return await download_song(link)
-                        else:
-                            logger.warning(f"⚠️ [NEXGEN] Unexpected status: {status}")
-                    else:
-                        logger.warning(f"⚠️ [NEXGEN] Empty response")
-                else:
-                    logger.warning(f"⚠️ [NEXGEN] API returned status {response.status}")
     except Exception as api_error:
-        logger.error(f"❌ [NEXGEN] Failed: {api_error}")
-        import traceback
-        traceback.print_exc()
+        logger.warning(f"⚠️ [NEXGEN] Failed: {api_error}. Falling back to yt-dlp...")
+
+    # Fallback to yt-dlp
+    logger.info(f"📥 [FALLBACK] Downloading using yt-dlp: {video_id}")
+    try:
+        # If link is just a video_id, make it a full URL
+        full_link = f"https://www.youtube.com/watch?v={video_id}" if not link.startswith("http") else link
+        
+        # Download using yt-dlp
+        proc = await asyncio.create_subprocess_exec(
+            "yt-dlp",
+            "-f", "ba[ext=m4a]/ba",
+            "-o", file_path,
+            full_link,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
+        )
+        stdout, stderr = await proc.communicate()
+        
+        if proc.returncode == 0 and os.path.exists(file_path):
+            logger.info(f"✅ [YT-DLP] Downloaded: {file_path}")
+            return file_path
+        else:
+            logger.error(f"❌ [YT-DLP] Failed: {stderr.decode() if stderr else 'Unknown error'}")
+            return None
+    except Exception as ytdl_error:
+        logger.error(f"❌ [YT-DLP] Error: {ytdl_error}")
         return None
 
 
 async def download_video(link: str) -> str:
     """
-    Download video using ONLY NexGen API
+    Download video using NexGen API with yt-dlp fallback
     """
     video_id = link.split("v=")[-1].split("&")[0] if "v=" in link else link
     logger = LOGGER("NexGenAPI")
@@ -164,8 +168,14 @@ async def download_video(link: str) -> str:
         return None
 
     os.makedirs("downloads", exist_ok=True)
+    file_path = os.path.join("downloads", f"{video_id}.mp4")
+
+    # Check if file exists
+    if os.path.exists(file_path):
+        logger.info(f"✅ [LOCAL] Video file found: {file_path}")
+        return file_path
     
-    # Use ONLY NexGen API
+    # Try NexGen API first
     try:
         logger.info(f"🎥 [NEXGEN] Using API: {VIDEO_API_URL}/stream/{video_id}")
         async with aiohttp.ClientSession() as session:
@@ -178,22 +188,38 @@ async def download_video(link: str) -> str:
                     if data:
                         status = data.get("status")
                         if status == "downloading":
-                            logger.info("✅ [NEXGEN] Video download started, waiting...")
+                            logger.info("✅ [NEXGEN] Video download started, waiting 10s...")
                             await asyncio.sleep(10)
-                        elif status == "done":
-                            logger.info("✅ [NEXGEN] Video file already downloaded!")
                         
-                        # Check if file exists
-                        file_path = os.path.join("downloads", f"{video_id}.mp4")
+                        # NexGen API seems to download to the same local path as we check? 
+                        # Or it returns a link? The original code only checked local path.
                         if os.path.exists(file_path):
                             logger.info(f"✅ [NEXGEN] Video file found: {file_path}")
                             return file_path
-                    else:
-                        logger.warning(f"⚠️ [NEXGEN] Empty response")
-                else:
-                    logger.warning(f"⚠️ [NEXGEN] API returned status {response.status}")
     except Exception as api_error:
-        logger.error(f"❌ [NEXGEN] Failed: {api_error}")
+        logger.warning(f"⚠️ [NEXGEN] Failed: {api_error}. Falling back to yt-dlp...")
+
+    # Fallback to yt-dlp
+    logger.info(f"📥 [FALLBACK] Downloading video using yt-dlp: {video_id}")
+    try:
+        full_link = f"https://www.youtube.com/watch?v={video_id}" if not link.startswith("http") else link
+        proc = await asyncio.create_subprocess_exec(
+            "yt-dlp",
+            "-f", "bv+ba/b",
+            "-o", file_path,
+            full_link,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE
+        )
+        await proc.communicate()
+        
+        if os.path.exists(file_path):
+            logger.info(f"✅ [YT-DLP] Video Downloaded: {file_path}")
+            return file_path
+        else:
+            return None
+    except Exception as ytdl_error:
+        logger.error(f"❌ [YT-DLP] Video Error: {ytdl_error}")
         return None
 
 
@@ -374,13 +400,32 @@ class YouTubeAPI:
                 link = link.split("&")[0]
 
             # Using YoutubeSearch as requested
-            # Since YoutubeSearch is synchronous, we can run it directly or in executor. 
-            # For simplicity and given it's fast, running directly here.
-            results = YoutubeSearch(link, max_results=1).to_dict()
+            try:
+                # YoutubeSearch is synchronous, it's better to run it in a thread if possible
+                # but for now keeping it as is to match original style if preferred.
+                results = YoutubeSearch(link, max_results=1).to_dict()
+            except Exception as e:
+                logger.warning(f"⚠️ YoutubeSearch failed: {e}. Trying fallback...")
+                results = []
             
-            print(f"YoutubeSearch Results: {results}")
-
             if not results:
+                # Fallback: if it's a URL, try extracting info via yt-dlp
+                if re.search(self.regex, link):
+                    logger.info(f"🔍 [FALLBACK] Extracting info for URL: {link}")
+                    try:
+                        info = await self.get_format_info(link)
+                        if info:
+                            track_details = {
+                                "title": info.get("title", "Unknown Title"),
+                                "link": link,
+                                "vidid": info.get("id"),
+                                "duration_min": seconds_to_min(info.get("duration", 0)),
+                                "thumb": info.get("thumbnail", config.YOUTUBE_IMG_URL),
+                            }
+                            return track_details, info.get("id")
+                    except Exception as fallback_err:
+                        logger.error(f"❌ Fallback extraction failed: {fallback_err}")
+                
                 logger.error(f"❌ No results found for: {link}")
                 return None, None
 
@@ -393,7 +438,7 @@ class YouTubeAPI:
             
             # YoutubeSearch returns suffix like '/watch?v=...', we need full link
             url_suffix = result.get("url_suffix", "")
-            yturl = f"https://www.youtube.com{url_suffix}"
+            yturl = f"https://www.youtube.com{url_suffix}" if url_suffix else link
 
             # Handle Thumbnails (YoutubeSearch returns a list of strings usually)
             thumbnails = result.get("thumbnails", [])

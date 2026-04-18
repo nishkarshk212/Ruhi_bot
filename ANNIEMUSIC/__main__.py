@@ -1,6 +1,13 @@
 import asyncio
-import importlib
 
+# Setup event loop for Python 3.12+ / 3.14+
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+
+import importlib
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
@@ -75,7 +82,9 @@ async def init():
 
 if __name__ == "__main__":
     try:
-        asyncio.get_event_loop().run_until_complete(init())
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        loop.run_until_complete(init())
     except KeyboardInterrupt:
         LOGGER("MUSICBROKN").info("Bot stopped by user")
     except Exception as e:
