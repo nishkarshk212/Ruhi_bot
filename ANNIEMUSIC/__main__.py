@@ -36,8 +36,8 @@ async def init():
     LOGGER("MUSICBROKN").info("Bot client started")
     
     # Start userbot
-    await userbot.start()
-    LOGGER("MUSICBROKN").info("Userbot client started")
+    # await userbot.start()
+    # LOGGER("MUSICBROKN").info("Userbot client started")
     
     # Start PyTgCalls
     await JARVIS.start()
