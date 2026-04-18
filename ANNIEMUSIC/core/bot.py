@@ -1,7 +1,11 @@
+#MrBroken©
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
+
 import config
+
 from ..logging import LOGGER
+
 
 class JARVIS(Client):
     def __init__(self):
@@ -11,8 +15,7 @@ class JARVIS(Client):
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
-            in_memory=True,
-            max_concurrent_transmissions=7,
+            no_updates=False,
         )
 
     async def start(self):
@@ -25,16 +28,16 @@ class JARVIS(Client):
         try:
             await self.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"<u><b>» {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
+                text=f"<u><b> {self.mention} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :</b><u>\n\nɪᴅ : <code>{self.id}</code>\nɴᴀᴍᴇ : {self.name}\nᴜsᴇʀɴᴀᴍᴇ : @{self.username}",
             )
-        except (errors.ChannelInvalid, errors.PeerIdInvalid):
+        except errors.Forbidden:
             LOGGER(__name__).error(
                 "Bot has failed to access the log group/channel. Make sure that you have added your bot to your log group/channel."
             )
             exit()
-        except Exception as ex:
+        except Exception as e:
             LOGGER(__name__).error(
-                f"Bot has failed to access the log group/channel.\n  Reason : {type(ex).__name__}."
+                f"Bot has failed to access the log group/channel.\n  Reason : {type(e).__name__}."
             )
             exit()
 
